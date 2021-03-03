@@ -1,0 +1,78 @@
+﻿  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_stdio_config.h(12,1): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_stdio_config.h(12,1): error C2143: syntax error: missing ';' before '{'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_stdio_config.h(12,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(306,41): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(335,43): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(368,43): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(722,13): error C3861: '__local_stdio_scanf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(753,13): error C3861: '__local_stdio_scanf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1060,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1059,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1059): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1085,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1084,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1084): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1162,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1161,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1161): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1266,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1265,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1265): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1314,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1313,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1313): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1349,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1348,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1348): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1382,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1381,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1381): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1914,13): error C3861: '__local_stdio_scanf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1947,13): error C3861: '__local_stdio_scanf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(1993,13): error C3861: '__local_stdio_scanf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(2012,13): error C3861: '__local_stdio_scanf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(643,40): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(672,42): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(705,42): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1064,13): error C3861: '__local_stdio_scanf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1095,13): error C3861: '__local_stdio_scanf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1391,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1390,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1390): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1441,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1440,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1440): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1499,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1498,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1498): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1548,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1547,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1547): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1586,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1585,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1585): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1660,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1659,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1659): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1691,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1690,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1690): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1724,13): error C3861: '__local_stdio_printf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1723,27): error C2789: '_Result': an object of const-qualified type must be initialized
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1723): message : see declaration of '_Result'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2177,13): error C3861: '__local_stdio_scanf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2208,13): error C3861: '__local_stdio_scanf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2345,13): error C3861: '__local_stdio_scanf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2368,13): error C3861: '__local_stdio_scanf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2393,13): error C3861: '__local_stdio_scanf_options': identifier not found
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2416,13): error C3861: '__local_stdio_scanf_options': identifier not found
+E:\Facultate\sursePOO\Lab2\TemaLab2\ex1\ex1\main.cpp(12,23): warning C4474: 'scanf_s' : too many arguments passed for format string
+E:\Facultate\sursePOO\Lab2\TemaLab2\ex1\ex1\main.cpp(12,23): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+E:\Facultate\sursePOO\Lab2\TemaLab2\ex1\ex1\main.cpp(16,27): warning C4474: 'scanf_s' : too many arguments passed for format string
+E:\Facultate\sursePOO\Lab2\TemaLab2\ex1\ex1\main.cpp(16,27): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+  NumberList.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\sal.h(2361,8): error C2059: syntax error: 'string'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\sal.h(2361,12): error C2143: syntax error: missing ';' before '{'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\sal.h(2361,12): error C2447: '{': missing function header (old-style formal list?)
+  Generating Code...
