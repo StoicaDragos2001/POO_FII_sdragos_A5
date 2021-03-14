@@ -63,8 +63,14 @@ void Sort::BubbleSort(bool ascendent) {
 	int n = this->numberOfElements;
 	for (i = 0; i < n - 1; i++)
 		for (j = 0; j < n - i - 1; j++)
-			if (this->vector[j] > this->vector[j + 1])
+		{
+			if (ascendent == true && this->vector[j] > this->vector[j + 1])
 				std::swap(this->vector[j], this->vector[j + 1]);
+			else
+				if (ascendent == false && this->vector[j] < this->vector[j + 1])
+					std::swap(this->vector[j], this->vector[j + 1]);
+		}
+
 }
 
 void Sort::InsertSort(bool ascendent) {
@@ -73,7 +79,11 @@ void Sort::InsertSort(bool ascendent) {
 	for (i = 1; i < n; i++) {
 		key = this->vector[i];
 		j = i - 1;
-		while (j >= 0 && this->vector[j] > key) {
+		while (ascendent==true && j >= 0 && this->vector[j] > key) {
+			this->vector[j + 1] = this->vector[j];
+			j = j - 1;
+		}
+		while (ascendent == false && j >= 0 && this->vector[j] < key) {
 			this->vector[j + 1] = this->vector[j];
 			j = j - 1;
 		}
@@ -81,34 +91,52 @@ void Sort::InsertSort(bool ascendent) {
 	}
 }
 
+int Sort::partition(int low, int high, bool ascendent)
+{
+	int pivot = this->vector[high];
+	int aux;
+	int i = low - 1;
+	for (int j = low; j <= high - 1; j++)
+	{
+		if (ascendent == false)
+		{
+			if (this->vector[j] > pivot)
+			{
+				i++;
+				aux = this->vector[i];
+				this->vector[i] = this->vector[j];
+				this->vector[j] = aux;
+			}
+		}
+		else
+		{
+			if (this->vector[j] < pivot)
+			{
+				i++;
+				aux = this->vector[i];
+				this->vector[i] = this->vector[j];
+				this->vector[j] = aux;
+			}
+		}
+	}
+	aux = this->vector[i + 1];
+	this->vector[i + 1] = this->vector[high];
+	this->vector[high] = aux;
+	return(i + 1);
+}
 
-
-void Sort::QuickSort(int low,int high, bool ascendent) {
-	int n = this->numberOfElements;
-    low = 0;
-	high = n - 1;
-	int pi;
-	int i, j;
+void Sort::quicksort(int low, int high, bool ascendent)
+{
 	if (low < high)
 	{
-		{pi = this->vector[high];
-
-		i = (low - 1); 
-
-			for (j = low; j <= high - 1; j++)
-			{
-				if (this->vector[j] < pi)
-				{
-					i++;   
-					std::swap(this->vector[i], this->vector[j]);
-				}
-			}
-			std::swap(this->vector[i + 1], this->vector[high]);
-		pi = i + 1; }
-
-		QuickSort( low, pi - 1);  
-		QuickSort( pi + 1, high); 
+		int p = partition(low, high, ascendent);
+		quicksort(low, p - 1, ascendent);
+		quicksort(p + 1, high, ascendent);
 	}
+}
+
+void Sort::QuickSort(bool ascendent) {
+	quicksort(0, this->numberOfElements - 1, ascendent);
 }
 
 int Sort::GetElementFromIndex(int index) {
