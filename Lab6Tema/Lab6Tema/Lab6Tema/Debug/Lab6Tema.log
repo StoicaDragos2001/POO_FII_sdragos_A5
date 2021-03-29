@@ -1,0 +1,3 @@
+﻿  Circuit.cpp
+E:\Facultate\sursePOO\Lab6\Lab6Tema\Lab6Tema\Lab6Tema\Circuit.cpp(26,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Lab6Tema.vcxproj -> E:\Facultate\sursePOO\Lab6\Lab6Tema\Lab6Tema\Debug\Lab6Tema.exe
